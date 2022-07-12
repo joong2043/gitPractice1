@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1106e664-eb8e-4ce7-ad45-8857efd3314f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSaying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ll/exam/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ll/exam/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="1106e664-eb8e-4ce7-ad45-8857efd3314f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +122,7 @@
       <workItem from="1657178706869" duration="3821000" />
       <workItem from="1657254597988" duration="4871000" />
       <workItem from="1657518117648" duration="4711000" />
-      <workItem from="1657591916612" duration="1779000" />
+      <workItem from="1657591916612" duration="2605000" />
     </task>
     <servers />
   </component>

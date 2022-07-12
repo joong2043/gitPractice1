@@ -75,13 +75,8 @@ public class App {
         }
 
         // URL에 입력된 id에 해당하는 명언객체 찾기
-        WiseSaying foundWiseSaying = null;
 
-        for (WiseSaying wiseSaying___ : wiseSayings) {
-            if (wiseSaying___.id == paramId) {
-                foundWiseSaying = wiseSaying___;
-            }
-        }
+        WiseSaying foundWiseSaying = findById(paramId);
 
         // 찾지 못했다면 중지
         if (foundWiseSaying == null) {
@@ -94,5 +89,13 @@ public class App {
 
         System.out.printf("%d번 명언이 삭제되었습니다.\n", paramId);
 
+    }
+    private WiseSaying findById(int paramId){
+        for(WiseSaying wiseSaying : wiseSayings){
+            if(wiseSaying.id == paramId){
+                return wiseSaying;
+            }
+        }
+        return null;
     }
 }
