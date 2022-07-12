@@ -2,20 +2,24 @@ package com.ll.exam;
 
 public class WiseSaying {
     int id;
-    String sentence;
-    String writer;
-    WiseSaying(int id, String sentence, String writer){
+    String content;
+    String author;
+    WiseSaying(int id, String content, String author){
         this.id = id;
-        this.sentence = sentence;
-        this.writer = writer;
+        this.content = content;
+        this.author = author;
+    }
+
+    WiseSaying(){
+
     }
 
     @Override
     public String toString(){
         return "WiseSaying{" +
                 "id=" + id +
-                ", sentence='" + sentence + '\'' +
-                ", writer='" + writer + '\'' +
+                ", sentence='" + content + '\'' +
+                ", writer='" + author + '\'' +
                 '}';
     }
 }
